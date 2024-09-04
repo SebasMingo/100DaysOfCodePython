@@ -31,13 +31,16 @@ age = input("What is your current age?")
 
 anhos_restantes = 90 - int(age)
 
-months_restantes = anhos_restantes * 12
+meses_restantes = anhos_restantes * 12
 
-weeks_restantes = anhos_restantes * 52
+semanas_restantes = anhos_restantes * 52
 
-days_restantes = anhos_restantes * 365
+dias_restantes = anhos_restantes * 365
 
-print(f"You have {days_restantes} days, {weeks_restantes} weeks, and {months_restantes} months left")
+
+print(f"You have {dias_restantes} days, {semanas_restantes} weeks, and {meses_restantes} months left.")
+
+
 
 
 
