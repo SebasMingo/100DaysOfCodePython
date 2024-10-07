@@ -45,6 +45,13 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
-print(n + n + n + n + n)
+suma = 0
+for n in range(0, len(student_heights)):
+  suma += student_heights[n]
+
+resultado = suma/(len(student_heights))
+redondeado = round(resultado)
+
+print(redondeado)
 
 
